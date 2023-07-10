@@ -12,7 +12,9 @@
 
 div.top-bar{
   background-image: url(../img/pattern.png);
-  background-size: 80%;
+  
+  /* togliendo il background-size l'immagine di sfondo resta fissa nonostante il ridimensionamento della finestra */
+  /* background-size: 150px; */ 
 }
 
 .top-bar img{
