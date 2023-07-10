@@ -119,20 +119,23 @@ th{
 
 /* FOOTER */
 
-footer h4{
+footer h3{
   color: #ACACAC;
+  margin-bottom: 20px;
 }
 
-footer .box-relatives{
-  border: 1px solid black;
-  /* background-image: url(../img/monitor.jpg); */
-  
-}
 
-/* footer{
-  width: 400px;
-} */
 .box-relatives{
   background-image: url(../img/monitor.jpg);
-  
+  width: 312px;
+  height: 208px;
+  position: relative;
+}
+
+.relative-caption{
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-weight: 700;
 }
