@@ -4,19 +4,61 @@
 
 /* iniziamo a dare un po' di regole generali */
 
+main, footer{
+  padding: 30px;
+}
+
+
+/* per dare più aria tra il titolo e le info sottostanti. Ho provato usando 'span' ma non prendeva il margin */
+p{
+  margin-top: 5px;
+}
+
 .top-bar{
   height: 150px;
   background-color: #4EA0FF;
   border: 1px solid black;
 }
 
+
+/* .logo-top-bar{
+  bottom: 0;
+} */
+
+
 div.top-bar{
   background-image: url(../img/pattern.png);
   
+
   /* togliendo il background-size l'immagine di sfondo resta fissa nonostante il ridimensionamento della finestra */
   /* background-size: 150px; */ 
 }
 
+
+/* HEADER */
+
+/* proprietà del logo "The Booleaner" */
+
 .top-bar img{
   height: 50px;
 }
+
+/* MAIN */
+
+.article-head{
+  margin-bottom: 10px;
+}
+
+p.article-info{
+  color: #868787;
+}
+
+.author{
+  color: #71B3FF;
+}
+
+.article-photo img{
+  height: 300px;
+}
+
+/* FOOTER */
