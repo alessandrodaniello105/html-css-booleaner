@@ -45,12 +45,17 @@ div.top-bar{
 
 /* MAIN */
 
-.article-head{
-  margin-bottom: 10px;
+.highlited{
+  background-color: yellow;
 }
 
-p.article-info{
-  color: #868787;
+.article-main{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.article-head{
+  margin-bottom: 10px;
 }
 
 .author{
@@ -60,5 +65,16 @@ p.article-info{
 .article-photo img{
   height: 300px;
 }
+
+p.article-info{
+  color: #868787;
+}
+.article-list ul{
+  padding-left: 15px;
+}
+.article-list li{
+  margin-bottom: 5px;
+}
+
 
 /* FOOTER */
