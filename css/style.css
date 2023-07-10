@@ -87,11 +87,6 @@ p.article-info{
 
 /* TABELLA */
 
-/* table, thead, tbody, tr, td, th{
-  margin: 0;
-  padding: 0;
-} */
-
 table{
   width: 100%;
   border-collapse: collapse;
@@ -123,3 +118,21 @@ th{
 }
 
 /* FOOTER */
+
+footer h4{
+  color: #ACACAC;
+}
+
+footer .box-relatives{
+  border: 1px solid black;
+  /* background-image: url(../img/monitor.jpg); */
+  
+}
+
+/* footer{
+  width: 400px;
+} */
+.box-relatives{
+  background-image: url(../img/monitor.jpg);
+  
+}
