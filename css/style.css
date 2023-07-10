@@ -1,3 +1,20 @@
 *{
   margin: 0;
 }
+
+/* iniziamo a dare un po' di regole generali */
+
+.top-bar{
+  height: 150px;
+  background-color: #4EA0FF;
+  border: 1px solid black;
+}
+
+div.top-bar{
+  background-image: url(../img/pattern.png);
+  background-size: 80%;
+}
+
+.top-bar img{
+  height: 50px;
+}
