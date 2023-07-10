@@ -76,5 +76,29 @@ p.article-info{
   margin-bottom: 5px;
 }
 
+/* TABELLA */
+table{
+  width: 100%;
+}
+
+th{
+  background-color: #23A9E5;
+  padding: 0;
+  margin: 0;
+}
+
+.stretta, .larga{
+  text-align: left;
+  color: white;
+}
+.stretta{
+  width: 25%;
+  
+}
+.larga{
+  width: 50%;
+}
+
+
 
 /* FOOTER */
