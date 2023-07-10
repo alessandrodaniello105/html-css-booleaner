@@ -45,10 +45,12 @@ div.top-bar{
 
 /* MAIN */
 
+/* effetto evidenziatore nel testo */
 .highlited{
   background-color: yellow;
 }
 
+/* STILE ARTICOLO */
 .article-main{
   margin-top: 30px;
   margin-bottom: 30px;
@@ -69,20 +71,37 @@ div.top-bar{
 p.article-info{
   color: #868787;
 }
+
+
+/* LISTA */
+
 .article-list ul{
   padding-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .article-list li{
   margin-bottom: 5px;
 }
 
+
 /* TABELLA */
+
+/* table, thead, tbody, tr, td, th{
+  margin: 0;
+  padding: 0;
+} */
+
 table{
   width: 100%;
+  border-collapse: collapse;
+}
+
+thead{
+  background-color: #23A9E5;
 }
 
 th{
-  background-color: #23A9E5;
   padding: 0;
   margin: 0;
 }
@@ -99,6 +118,8 @@ th{
   width: 50%;
 }
 
-
+.cyan-row{
+  background-color: #B1E5F2;
+}
 
 /* FOOTER */
