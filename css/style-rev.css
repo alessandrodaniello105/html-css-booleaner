@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+}
+
+/* iniziamo a dare un po' di regole generali */
+
+main, footer{
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+/* per dare più aria tra il titolo e le info sottostanti. Ho provato usando 'span' ma non prendeva il margin */
+p{
+  margin-top: 5px;
+}
+
+.top-bar{
+  height: 150px;
+  background-color: #4EA0FF;
+  border: 1px solid black;
+}
+
+
+/* .logo-top-bar{
+  bottom: 0;
+} */
+
+
+div.top-bar{
+  background-image: url(../img/pattern.png);
+  
+
+  /* togliendo il background-size l'immagine di sfondo resta fissa nonostante il ridimensionamento della finestra */
+  /* background-size: 150px; */ 
+}
+
+
+/* HEADER */
+
+/* proprietà del logo "The Booleaner" */
+
+.top-bar img{
+  height: 80px;
+  padding-top: 60px;
+  padding-left: 20px;
+}
+
+/* MAIN */
+
+/* effetto evidenziatore nel testo */
+.highlited{
+  background-color: yellow;
+}
+
+/* STILE ARTICOLO */
+.article-main{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.article-head{
+  margin-bottom: 10px;
+}
+
+.author{
+  color: #71B3FF;
+}
+
+.article-photo img{
+  height: 300px;
+}
+
+p.article-info{
+  color: #868787;
+}
+
+
+/* LISTA */
+
+.article-list ul{
+  padding-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.article-list li{
+  margin-bottom: 5px;
+}
+
+
+/* TABELLA */
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead{
+  background-color: #23A9E5;
+}
+
+th{
+  padding: 0;
+  margin: 0;
+}
+
+.stretta, .larga{
+  text-align: left;
+  color: white;
+}
+.stretta{
+  width: 25%;
+  
+}
+.larga{
+  width: 50%;
+}
+
+.cyan-row{
+  background-color: #B1E5F2;
+}
+
+/* FOOTER */
+
+footer h3{
+  color: #ACACAC;
+}
+
+
+.box-relatives{
+  width: 312px;
+  height: 208px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.relative-caption{
+  display: inline-block;
+  color: white;
+  top: 20px;
+  left: 20px;
+  font-size: 1.5rem;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#monitor{
+  background-image: url(../img/monitor.jpg);
+}
+
+#graph{
+  background-image: url(../img/graph.jpg);
+}
